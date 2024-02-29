@@ -50,3 +50,12 @@ body{
 .music-container .play .img-container img {
     animation-play-state: running;
 }
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
